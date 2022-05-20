@@ -1,0 +1,50 @@
+.image1{
+    width: 1750px;
+    height: 439px;
+}
+.bgImage{
+    background-image: url(../assets/images/banner.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+padding: 80px;
+}
+.searchfield{
+    width: 682px;
+    height: 49px;
+    outline: 0;
+}
+/* .searchbutton{
+    position: relative;
+    padding: 3px;
+    width: 38px;
+    height: 50px;
+} */
+
+.searchBar{
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.selectBox{
+    width:15%;
+    outline: 0;
+    background-image: url(../assets/images/dropIcon.png);
+    background-repeat: no-repeat;
+    background-position: top 18px right 15px;
+    background-size: 15%;
+}
+.masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    width: auto;
+  }
+  .masonry-grid_column {
+    padding-left: 15px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  /* Style your items */
+  .masonry-grid_column > div {
+    margin: 15px auto;
+  }
+
